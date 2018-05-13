@@ -36,5 +36,6 @@
     <target name="clean-build" depends="clean,jar"/>
 
     <target name="main" depends="clean,run"/>
-
+ <mkdir dir="${classes.dir}"/>
+    
 </project>
